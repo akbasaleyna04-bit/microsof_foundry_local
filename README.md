@@ -51,21 +51,21 @@ microsoft_proje/
 └── requirements.txt   # Python dependencies
 ##⚙️ Quick Start Guide
 
-###1. Clone & Setup Environment
+* **1. Clone & Setup Environment**
 ```bash
 git clone https://github.com/akbasaleyna04-bit/microsof_foundry_local.git
 cd microsof_foundry_local
 python -m venv .venv
 
-###2. Install Dependencies
+**2. Install Dependencies**
 ```bash
 pip install -r requirements.txt
 
-###3. Ingest Knowledge Base
+**3. Ingest Knowledge Base**
 *Process your local documents and build the vector database:
 ```bash
 python ingest.py
 
-###4. Launch the Assistant
+**4. Launch the Assistant**
 ```bash
 python app.py
