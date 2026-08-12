@@ -54,7 +54,7 @@ microsoft_proje/
 
 * **1. Clone & Setup Environment**
 ``` bash
-git clone [https://github.com/akbasaleyna04-bit/microsof_foundry_local.git](https://github.com/akbasaleyna04-bit/microsof_foundry_local.git)
+git clone https://github.com/akbasaleyna04-bit/microsof_foundry_local.git
 cd microsof_foundry_local
 python -m venv .venv
 ```
