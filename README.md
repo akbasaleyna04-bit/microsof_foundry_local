@@ -49,26 +49,26 @@ microsoft_proje/
 ├── evaluate.py        # Automated testing and validation suite
 ├── selfcheck.py       # Environment and dependency verification
 └── requirements.txt   # Python dependencies
-
----
-
-##⚙️ Quick Start Guide
+```
+## ⚙️ Quick Start Guide
 
 * **1. Clone & Setup Environment**
-```bash
-git clone https://github.com/akbasaleyna04-bit/microsof_foundry_local.git
+``` bash
+git clone [https://github.com/akbasaleyna04-bit/microsof_foundry_local.git](https://github.com/akbasaleyna04-bit/microsof_foundry_local.git)
 cd microsof_foundry_local
 python -m venv .venv
-
+```
 * **2. Install Dependencies**
-```bash
+``` bash
 pip install -r requirements.txt
-
+```
 * **3. Ingest Knowledge Base**
-*Process your local documents and build the vector database:
-```bash
+* Process your local documents and build the vector database:
+``` bash
 python ingest.py
-
+```
 * **4. Launch the Assistant**
-```bash
+``` bash
 python app.py
+```
+* Access the local web interface via the URL provided in your terminal (e.g., http://127.0.0.1:7860).
