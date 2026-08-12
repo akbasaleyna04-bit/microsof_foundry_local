@@ -57,10 +57,9 @@ microsoft_proje/
 
 **1. Clone & Setup Environment**
 ```bash
-cd microsoft_proje
+git clone [https://github.com/akbasaleyna04-bit/microsof_foundry_local.git](https://github.com/akbasaleyna04-bit/microsof_foundry_local.git)
+cd microsof_foundry_local
 python -m venv .venv
-```
-*(Windows: `.\.venv\Scripts\activate` | Mac/Linux: `source .venv/bin/activate`)*
 
 **2. Install Dependencies**
 ```bash
